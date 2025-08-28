@@ -25,23 +25,23 @@
 
 - şimdi php artisan migrate komutu ile tablolar oluşacak.
 
-``λ php artisan route:list
+``λ php artisan route:list``
 
-  GET|HEAD        / .............................................................................................................
-  GET|HEAD        api/birimler ........................................................... birimler.index › BirimController@index
-  POST            api/birimler ........................................................... birimler.store › BirimController@store
-  GET|HEAD        api/birimler/{birimler} .................................................. birimler.show › BirimController@show
-  PUT|PATCH       api/birimler/{birimler} .............................................. birimler.update › BirimController@update
-  DELETE          api/birimler/{birimler} ............................................ birimler.destroy › BirimController@destroy
-  GET|HEAD        api/unvanlar ........................................................... unvanlar.index › UnvanController@index
-  POST            api/unvanlar ........................................................... unvanlar.store › UnvanController@store
-  GET|HEAD        api/unvanlar/{unvanlar} .................................................. unvanlar.show › UnvanController@show
-  PUT|PATCH       api/unvanlar/{unvanlar} .............................................. unvanlar.update › UnvanController@update
-  DELETE          api/unvanlar/{unvanlar} ............................................ unvanlar.destroy › UnvanController@destroy
-  GET|HEAD        storage/{path} .................................................................................. storage.local
-  GET|HEAD        up ............................................................................................................
+``GET|HEAD        / .............................................................................................................``
+``GET|HEAD        api/birimler ........................................................... birimler.index › BirimController@index``
+``POST            api/birimler ........................................................... birimler.store › BirimController@store``
+``GET|HEAD        api/birimler/{birimler} .................................................. birimler.show › BirimController@show``
+``PUT|PATCH       api/birimler/{birimler} .............................................. birimler.update › BirimController@update``
+``DELETE          api/birimler/{birimler} ............................................ birimler.destroy › BirimController@destroy``
+``GET|HEAD        api/unvanlar ........................................................... unvanlar.index › UnvanController@index``
+``POST            api/unvanlar ........................................................... unvanlar.store › UnvanController@store``
+``GET|HEAD        api/unvanlar/{unvanlar} .................................................. unvanlar.show › UnvanController@show``
+``PUT|PATCH       api/unvanlar/{unvanlar} .............................................. unvanlar.update › UnvanController@update``
+``DELETE          api/unvanlar/{unvanlar} ............................................ unvanlar.destroy › UnvanController@destroy``
+``GET|HEAD        storage/{path} .................................................................................. storage.local``
+``GET|HEAD        up ............................................................................................................``
 
-                                                                                                              Showing [13] routes``
+``Showing [13] routes``
 - laravel projemiz hazır. başlatmak için php artisan serve komutunu kullanabilirsiniz.
 - projeyi başlattıktan sonra api-test.http dosyasını açıp istekleri test edebilirsiniz.  
 - git.env dosyasının adını .env olarak değiştirin.
