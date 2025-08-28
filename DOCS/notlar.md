@@ -25,7 +25,7 @@
 
 - şimdi php artisan migrate komutu ile tablolar oluşacak.
 
-λ php artisan route:list
+``λ php artisan route:list
 
   GET|HEAD        / .............................................................................................................
   GET|HEAD        api/birimler ........................................................... birimler.index › BirimController@index
@@ -41,8 +41,7 @@
   GET|HEAD        storage/{path} .................................................................................. storage.local
   GET|HEAD        up ............................................................................................................
 
-                                                                                                              Showing [13] routes
-
+                                                                                                              Showing [13] routes``
 - laravel projemiz hazır. başlatmak için php artisan serve komutunu kullanabilirsiniz.
 - projeyi başlattıktan sonra api-test.http dosyasını açıp istekleri test edebilirsiniz.  
 - git.env dosyasının adını .env olarak değiştirin.
